@@ -26,7 +26,7 @@ This section contains the implementation of the **History-Passing Reinforcement 
 
 Code implementing the algorithm together with the associated data can be accessed via the ...
 
-*(Further details to be updated by collaborators.)*
+*(Further details to be updated.)*
 
 ---
 
@@ -39,10 +39,10 @@ The SA implementation performs an MCMC search for rare strategic initializations
 **Relevant files:**
 
 * `SA_RRG.py`
-  Core simulated annealing code for finding initial configurations that reach consensus within a prescribed number of time steps (p).
+  Core simulated annealing code for finding initial configurations that reach consensus within a prescribed number of time steps p.
 
 * `SA_RRG_relaxed_p_script.py`
-  Runs the SA procedure and stores unique pairs of initial magnetization and effective consensus time (T_{\mathrm{eff}}), which typically satisfies (T_{\mathrm{eff}} > p).
+  Runs the SA procedure and stores unique pairs of initial magnetization and effective consensus time T_eff, which typically satisfies T_eff > p.
 
 * `SA_time2consensus_plotting.py`
   Generates Figure 15 of the paper using the combined data cache
