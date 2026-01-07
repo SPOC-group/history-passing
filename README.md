@@ -14,9 +14,8 @@ We study synchronous, deterministic majority dynamics on large random (d)-regula
 **One-step replica symmetry breaking (1RSB) results:**
 *(to be updated)*
 
-**Evidence for freezing:**
-
-This folder contains the code used to investigate the freezing in the p=1 case, where the problem can be matched to a constraint satisfaction problem. The code is adapted from *Counting and hardness-of-finding fixed points in cellular automata on random graphs* from the same authors.
+**``freezing_evidence``**
+--- this folder contains the code used to investigate the freezing in the p=1 case, where the problem can be matched to a constraint satisfaction problem. The code is adapted from *Counting and hardness-of-finding fixed points in cellular automata on random graphs* from the same authors.
 
 ---
 
