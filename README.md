@@ -1,6 +1,6 @@
 This repository contains the code and data required to reproduce the numerical results and figures of the paper:
 
-> **Minority Takeover in Majority Dynamics: Searching for Rare Initializations via the History-Passing Algorithm**
+# Minority Takeover in Majority Dynamics: Searching for Rare Initializations via the History-Passing Algorithm
 
 We study synchronous, deterministic majority dynamics on large random (d)-regular graphs and investigate how much bias in the initial configuration is required to drive the system toward global consensus.
 
