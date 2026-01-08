@@ -8,7 +8,7 @@ We study synchronous, deterministic majority dynamics on large random (d)-regula
 
 ## Backtracking Dynamical Cavity Method (BDCM)
 
-Folder ``bdcm`` contains the implementation of the BDCM and all associated function definitions. These modules can be imported to generate the BDCM results (both symmetric and replica symmetry broken) using the provided scripts.
+Folder ``bdcm`` contains the implementation of the BDCM and all associated function definitions. These modules can be imported to generate the BDCM results (both *symmetric* and *replica symmetry broken*) using the provided scripts.
 
 * ``[figures]-d=4-overview.ipynb`` (left), ``[figures]-static-1RSB.ipynb`` (right) produce Figure 1.
 
