@@ -21,6 +21,8 @@ Folder ``bdcm`` contains the implementation of the BDCM and all associated funct
 **``freezing_evidence``**
 --- this folder contains the code used to investigate the freezing in the p=1 case, where the problem can be matched to a constraint satisfaction problem. The code is adapted from *Counting and hardness-of-finding fixed points in cellular automata on random graphs* from the same authors.
 
+* Figure 10 is created using the data generated with the ``[exp]-hpr-script.py``, but the function ``population_dynamics`` in ``bp_pop_init.py`` (stored in the ``bdcm`` folder) needs to be modified as follows. The line #np.save(f"results/histograms/final_dist_{T=}_{d=}_rho_temp={rho_temp}",phi.reshape(phi.shape[0],-1)) needs to be uncommented, and one also has to put it in the for-loop below.
+
 > `[1]` Freya Behrens, Barbora Hudcova, and Lenka Zdeborova. Dynamical phase transitions in graph cellular
 automata. Phys. Rev. E, 109(4):044312, 2024
 ---
